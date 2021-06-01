@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_review_reviews",
+  "info": {
+    "name": "Review",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "comment": {
+      "type": "text"
+    }
+  }
+}

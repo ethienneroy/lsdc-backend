@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_saveur_saveurs",
+  "info": {
+    "name": "saveur",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    }
+  }
+}
