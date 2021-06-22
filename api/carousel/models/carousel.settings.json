@@ -12,10 +12,10 @@
     "comment": ""
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "text"
     },
     "picture": {
