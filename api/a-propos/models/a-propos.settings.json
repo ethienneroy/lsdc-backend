@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "about",
+  "info": {
+    "name": "À propos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.card"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.services",
+      "max": 3
+    },
+    "Comments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "comments.comments"
+    },
+    "commentsBackgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

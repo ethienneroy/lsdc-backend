@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_comments_comments",
+  "info": {
+    "name": "Comments",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "personName": {
+      "type": "string"
+    }
+  }
+}
