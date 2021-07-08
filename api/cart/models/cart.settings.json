@@ -1,0 +1,14 @@
+{
+  "collectionName": "carts",
+  "info": {
+    "name": "cart",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {}
+}
