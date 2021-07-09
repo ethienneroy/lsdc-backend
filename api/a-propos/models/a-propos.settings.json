@@ -47,7 +47,7 @@
       "component": "comments.comments"
     },
     "commentsBackgroundImage": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
