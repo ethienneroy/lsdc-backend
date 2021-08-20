@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_size_sizes",
+  "info": {
+    "name": "Sizes",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

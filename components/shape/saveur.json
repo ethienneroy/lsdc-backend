@@ -1,8 +1,9 @@
 {
   "collectionName": "components_saveur_saveurs",
   "info": {
-    "name": "saveur",
-    "icon": "ad"
+    "name": "shape",
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {

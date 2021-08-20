@@ -36,10 +36,10 @@
     "price": {
       "type": "decimal"
     },
-    "saveurs": {
+    "shapes": {
       "type": "component",
       "repeatable": true,
-      "component": "saveur.saveur"
+      "component": "shape.saveur"
     },
     "related_products": {
       "collection": "product"
@@ -57,6 +57,11 @@
     "categories": {
       "via": "products",
       "collection": "categories"
+    },
+    "Sizes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "size.sizes"
     }
   }
 }
