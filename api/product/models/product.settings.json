@@ -58,7 +58,7 @@
       "via": "products",
       "collection": "categories"
     },
-    "Sizes": {
+    "sizes": {
       "type": "component",
       "repeatable": true,
       "component": "size.sizes"
