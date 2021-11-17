@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cart": {
+      "model": "cart"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "paid",
+        "preparation",
+        "delivery"
+      ]
+    },
+    "total": {
+      "type": "decimal"
+    }
+  }
+}

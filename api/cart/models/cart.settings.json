@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "collectionName": "carts",
   "info": {
     "name": "cart",
@@ -10,5 +11,30 @@
     "timestamps": true,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "address": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "cart_items": {
+      "collection": "cart-items"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "payment_intent": {
+      "type": "string"
+    }
+  }
 }

@@ -2,64 +2,56 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/carts",
-      "handler": "cart.find",
+      "path": "/promo-codes",
+      "handler": "promo-code.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/carts/count",
-      "handler": "cart.count",
+      "path": "/promo-codes/count",
+      "handler": "promo-code.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/carts/:id",
-      "handler": "cart.findOne",
+      "path": "/promo-codes/:id",
+      "handler": "promo-code.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/carts",
-      "handler": "cart.create",
+      "path": "/promo-codes",
+      "handler": "promo-code.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/carts/:id",
-      "handler": "cart.update",
+      "path": "/promo-codes/:id",
+      "handler": "promo-code.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/carts/:id",
-      "handler": "cart.delete",
+      "path": "/promo-codes/:id",
+      "handler": "promo-code.delete",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/checkout",
-      "handler": "cart.checkout",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/stripe-webhook",
-      "handler": "cart.stripeCheckout",
+      "path": "/validate-promo",
+      "handler": "promo-code.verifyCode",
       "config": {
         "policies": []
       }

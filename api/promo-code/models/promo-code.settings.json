@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promo_codes",
+  "info": {
+    "name": "Promo Code",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "startDate": {
+      "required": true,
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date",
+      "required": true
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "percentage",
+        "dollar"
+      ]
+    },
+    "minimum_price": {
+      "type": "decimal"
+    }
+  }
+}
